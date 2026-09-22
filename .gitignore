@@ -1,0 +1,58 @@
+# Secrets — keep .env.example tracked
+.env
+!.env.example
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build
+dist/
+build/
+.next/
+out/
+.turbo/
+vite/dist/
+
+# Python / DB
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.db-journal
+alembic_version/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Coverage & test
+coverage/
+.nyc_output/
+tmp/
+temp/
+
+# Vercel / Render
+.vercel
+.render/
+
+# Misc
+.cache/
